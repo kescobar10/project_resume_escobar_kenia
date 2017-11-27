@@ -15,7 +15,7 @@
 
     <main id="main">
         <section id="contact">
-            <h1>Kenia Escobar</h1>
+            <h1 id="responsive_headline">Kenia Escobar</h1>
             <h2>Web Design and Digital Strategy</h2>
             <img src="img/headshot.png" alt="headshot" class="myTooltip" title="This is me!">
             <p>keniarescobar@gmail.com</p>
@@ -155,8 +155,20 @@
         Copyright &copy; 2017 Kenia Escobar
     </footer>
 
+    <!-- jQuery -->
     <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Plugin 1: Drooltip -->
     <script type="text/javascript" src="js/drooltip.js"></script>
+
+    <!-- Plugin 2: FitText -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script>jQuery("#responsive_headline").fitText();
+    </script>
+
+    <!-- Main JS file -->
     <script src="js/main.js"></script>
+
 </body>
 </html>
