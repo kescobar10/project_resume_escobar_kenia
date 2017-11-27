@@ -8,10 +8,12 @@ $('h3').hover( // this is going to be a hover effect
     }
 );
 
-// Plugin 1: Drooltip
+// Plugin 1: Drooltip.
+// My headshot image will produce a tooltip message on hover.
 
 var tooltip = new Drooltip({
     'element': '.myTooltip'});
 
 
-//Plugin 2
+// Plugin 2 in index.html.
+// It will make the h1 responsive.
