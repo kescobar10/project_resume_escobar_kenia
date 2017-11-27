@@ -8,7 +8,10 @@ $('h3').hover(
     }
 );
 
-// Plugin 1
+// Plugin 1: Drooltip
+
+var tooltip = new Drooltip({
+    'element': '.myTooltip'});
 
 
 //Plugin 2
