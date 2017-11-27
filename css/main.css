@@ -25,7 +25,7 @@ h2 {
 h3 {
     font-family: 'IM Fell French Canon';
     font-style: italic;
-    font-size: 1.7em;
+    font-size: 1.9em;
     margin-top: 40px;
     margin-bottom: 15px;
 }
@@ -36,7 +36,7 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1em;
-    margin:0;
+    margin:15px 0;
 }
 
 h5 {
@@ -46,25 +46,21 @@ h5 {
     margin: 10px 0;
 }
 
-p {
+p, ul {
     font-family: 'Work Sans';
     font-weight: 300;
     font-size: 0.9em;
     line-height: 1.5;
 }
 
-ul {
-    font-family: 'Work Sans';
-    font-weight: 300;
-    list-style: none;
-    font-size: 0.9em;
-    margin: 30px 0;
-    text-align: center;
-}
-
 hr {
     color: #f2f2f2;
     border-style: solid;
+}
+
+.italic {
+    font-style: italic;
+    display: inline;
 }
 
 #contact {
